@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.match-card {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+  padding: 15px;
+  min-height: 100vh;
+}
+
+.image {
+  width: 90vw;
+  height: 20vh;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.all-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .image {
+    width: 90vw;
+    height: 40vh;
+  }
+}

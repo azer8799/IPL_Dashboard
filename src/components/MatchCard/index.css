@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+* {
+  color: #fff;
+}
+.math-image {
+  width: 60px;
+  height: 40px;
+}
+
+.matches-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e293b;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 8px;
+  align-items: center;
+  border-radius: 15px;
+  width: 145px;
+  height: 250px;
+}
+
+.match-heading {
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  text-align: center;
+}
+
+.match-desc {
+  font-size: 12px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.greenColor {
+  color: rgb(149, 241, 10);
+}
+.redColor {
+  color: rgb(204, 39, 39);
+}
+
+@media (min-width: 768px) {
+  .matches-card {
+    width: 200px;
+  }
+}

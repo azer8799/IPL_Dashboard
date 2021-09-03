@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  padding: 15px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  margin-left: 15px;
+  color: #fff;
+}
+
+.logo {
+  width: 50px;
+}
+
+.header {
+  display: flex;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}

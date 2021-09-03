@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.each-latest-card {
+  background-color: #1e293b;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.latest-heading {
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+}
+.latest-desc {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #fff;
+}
+
+.teams {
+  width: 60px;
+  height: 60px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid grey;
+}
